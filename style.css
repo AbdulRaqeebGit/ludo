@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:47px 47px 47px 47px 47px 47px 47px 47px 47px;
+    grid-template-areas: 
+    "box1 box1 box1 box1 box1 box1 box2 box3 box4 box5 box5 box5 box5 box5 box5"
+    "box1 box1 box1 box1 box1 box1 box6 box7 box8 box5 box5 box5 box5 box5 box5"
+    "box1 box1 box1 box1 box1 box1 box9 box10 box11 box5 box5 box5 box5 box5 box5"
+    "box1 box1 box1 box1 box1 box1 box12 box13 box14 box5 box5 box5 box5 box5 box5"
+    "box1 box1 box1 box1 box1 box1 box15 box16 box17 box5 box5 box5 box5 box5 box5"
+    "box1 box1 box1 box1 box1 box1 box18 box19 box20 box5 box5 box5 box5 box5 box5"
+    "box21 box22 box23 box24 box25 box26 box27 box27 box27 box28 box29 box30 box31 box32 box33"
+    "boxl1 boxl2 boxl3 boxl4 boxl5 boxl6 box27 box27 box27 boxl7 boxl8 boxl9 boxl10 boxl11 boxl12"
+    "boxl-1 boxl-2 boxl-3 boxl-4 boxl-5 boxl-6 box27 box27 box27 boxl-7 boxl-8 boxl-9 boxl-10 boxl-11 boxl-12"
+    ;
+}
+.box{
+    border: 1px solid black;
+}
+.box1{
+    background-color: red;
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.box4{
+    grid-area: box4;
+}
+.box5{
+    grid-area: box5;
+    background-color: green;
+}
+.box6{
+    grid-area: box6;
+    text-align: center;
+}
+.box7{
+    grid-area: box7;
+    background-color: green;
+}
+.box8{
+    grid-area: box8;
+    background-color: green;
+}
+.box9{
+    grid-area: box9;
+    background-color: red;
+}
+.box10{
+    grid-area: box10;
+    background-color: green;
+}
+.box11{
+    grid-area: box11;
+}
+.box12{
+    grid-area: box12;
+}
+.box13{
+    grid-area: box13;
+    background-color: green;
+}
+.box14{
+    grid-area: box14;
+}
+.box15{
+    grid-area: box15;
+}
+.box16{
+    grid-area: box16;
+    background-color: green;
+}
+.box17{
+    grid-area: box17;
+}
+.box18{
+    grid-area: box18;
+}
+.box19{
+    grid-area: box19;
+    background-color: green;
+}
+.box20{
+    grid-area: box20;
+}
+.box21{
+    grid-area: box21;
+}
+.box22{
+    grid-area: box22;
+    background-color: red;    
+}.box23{
+    grid-area: box23;
+}.box24{
+    grid-area: box24;
+}.box25{
+    grid-area: box25;
+}.box26{
+    grid-area: box26;
+}.box27{
+    grid-area: box27;
+}.box28{
+    grid-area: box28;
+}.box29{
+    grid-area: box29;
+}.box30{
+    grid-area: box30;
+}.box31{
+    grid-area: box31;
+    background-color: green;
+}.box32{
+    grid-area: box32;
+}.box33{
+    grid-area: box33;
+}
+.boxl1{
+    grid-area: boxl1;
+}
+.boxl2{
+    grid-area: boxl2;
+    background-color: red;    
+}
+.boxl3{
+    grid-area: boxl3;
+    background-color: red;    
+}
+.boxl4{
+    grid-area: boxl4;
+    background-color: red;    
+}
+.boxl5{
+    grid-area: boxl5;
+    background-color: red;    
+}
+.boxl6{
+    grid-area: boxl6;
+    background-color: red;    
+}
+.boxl7{
+    grid-area: boxl7;
+    background-color: yellow;
+}
+.boxl8{
+    grid-area: boxl8;
+    background-color: yellow;
+}
+.boxl9{
+    grid-area: boxl9;
+    background-color: yellow;
+}
+.boxl10{
+    grid-area: boxl10;
+    background-color: yellow;
+}
+.boxl11{
+    grid-area: boxl11;
+    background-color: yellow;
+}
+.boxl12{
+    grid-area: boxl12;
+}
+.boxl-1{
+    grid-area: boxl-1;
+}
+.boxl-2{
+    grid-area: boxl-2;   
+}
+.boxl-3{
+    grid-area: boxl-3; 
+    background-color: blue; 
+}
+.boxl-4{
+    grid-area: boxl-4;
+    background-col-or: blue;    
+}
+.boxl-5{
+    grid-area: boxl-5;    
+}
+.boxl-6{
+    grid-area: boxl-6;   
+}
+.boxl-7{
+    grid-area: boxl-7;
+}
+.boxl-8{
+    grid-area: boxl-8;
+}
+.boxl-9{
+    grid-area: boxl-9;
+}
+.boxl-10{
+    grid-area: boxl-10;
+}
+.boxl-11{
+    grid-area: boxl-11;
+    background-color: yellow;
+}
+.boxl-12{
+    grid-area: boxl-12;
+}
